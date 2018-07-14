@@ -36,6 +36,11 @@ html {
     min-width: 220px;
     word-wrap: normal
   }
+
+  .card-body{
+    min-height: 300px
+
+  }
   
   .border-top { border-top: 1px solid #e5e5e5; }
   .border-bottom { border-bottom: 1px solid #e5e5e5; }
