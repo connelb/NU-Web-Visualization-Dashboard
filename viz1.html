@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Vizualization Dashboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
@@ -17,12 +17,12 @@
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown" class="active">
-                    <a class="dropdown-toggle" data-toggle="dropdown" >Plots
+                    <a class="dropdown-toggle" data-toggle="dropdown">Plots
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="viz1.html">Max Temperature</a>
+                            <a href="viz1.html">Max Temp</a>
                         </li>
                         <li>
                             <a href="viz2.html">Humidity</a>
@@ -46,17 +46,15 @@
     </nav>
 
     <div class="container">
-        <div class="latitude-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h1 class="display-4">Welcome</h1>
-            <p class="lead">The site studies the lastest climate information from around the world.</p>
-        </div>
-        <div class="container">
-            <div class="row">
-                <p>  * A descriptive title and heading tag.
-                        * The plot/visualization itself for the selected comparison.
-                        * A paragraph describing the plot and its significance.</p>
-                <img src="./Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
-
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <div class="latitude-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                        <h1 class="display-4">Max Temperature</h1>
+                    </div>
+                    <img src="./Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
+                    <p class="lead">Note how the temperature decreases as the distance increase from the equator.</p>
+                </div>
             </div>
         </div>
     </div>

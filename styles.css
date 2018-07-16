@@ -10,7 +10,11 @@ html {
   .navbar-brand{
     font-size: 32px;
     font-weight: bold;
-
+    color:#17a2b8;
+  }
+  .img-landing {
+    max-width: 40%;
+    float: left;
   }
 
   .dropdown-menu{
@@ -26,6 +30,10 @@ html {
   }
   .container {
     max-width: 960px;
+  }
+
+  .table-responsive{
+    overflow-y: hidden
   }
   
   .latitude-header {

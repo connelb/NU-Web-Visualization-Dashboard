@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Vizualization Dashboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
@@ -17,12 +17,12 @@
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown" class="active">
-                    <a class="dropdown-toggle" data-toggle="dropdown" >Plots
+                    <a class="dropdown-toggle" data-toggle="dropdown">Plots
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="viz1.html">Max Temperature</a>
+                            <a href="viz1.html">Max Temp</a>
                         </li>
                         <li>
                             <a href="viz2.html">Humidity</a>
@@ -46,49 +46,60 @@
     </nav>
 
     <div class="container">
-        <div class="latitude-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h1 class="display-4">Welcome</h1>
-            <p class="lead">The site studies the lastest climate information from around the world.</p>
+        <div class="latitude-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-left">
+            <h1 class="display-4">Latitude vs. X</h1>
+            <p class="lead">Click any plot to get an in-depth analysis</p>
         </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">City Latitude vs Max Temperature</h5>
-                            <p class="card-text">Study the temperature around the world.</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">City Latitude vs Max Temperature</h5>
+                        <p class="card-text">Study the temperature around the world.</p>
+                        <a href="viz1.html">
                             <img src="./Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">City Latitude vs Humidity</h5>
-                            <p class="card-text">Observe how humidity varies by latitude.</p>
-                            <img src="./Resources/assets/images/Fig2.png" class="img-fluid" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">City Latitude vs Cloudiness</h5>
-                            <p class="card-text">Track the cloudiness globally.</p>
-                            <img src="./Resources/assets/images/Fig3.png" class="img-fluid" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">City Latitude vs. Wind Speed</h5>
-                            <p class="card-text">Check out the various wind speeds around the world.</p>
-                            <img src="./Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">City Latitude vs Humidity</h5>
+                        <p class="card-text">Observe how humidity varies by latitude.</p>
+                        <a href="viz2.html">
+                            <img src="./Resources/assets/images/Fig2.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">City Latitude vs Cloudiness</h5>
+                        <p class="card-text">Track the cloudiness globally.</p>
+                        <a href="viz3.html">
+                            <img src="./Resources/assets/images/Fig3.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">City Latitude vs. Wind Speed</h5>
+                        <p class="card-text">Check out the various wind speeds around the world.</p>
+                        <a href="viz4.html">
+                            <img src="./Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 
 
